@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/contact', function () {
+Route::get('/contact info', function () {
     return view('contact');
 })->name('contact');
 
